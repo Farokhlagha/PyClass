@@ -1,7 +1,13 @@
-for i in range(3):
-    password = input("enter password: ")
-    if password == "1920":
-        print("welcome🤣")
-        break
-    else:
-        print("wrong password")
+# for i in range(3):
+#     score = float(input("enter score: "))
+#     print("Thanks")
+# print("End")
+
+
+while float(input("enter score: ")) != -1:
+    print("Thanks")
+
+print("end")
+
+
+
