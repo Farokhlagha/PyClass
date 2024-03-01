@@ -1,0 +1,36 @@
+class Vehicle:
+    def __init__(self):
+        self.speed = ...
+        self.color = ...
+        self.model = ...
+
+    def turn_on(self):
+        ...
+
+    def turn_off(self):
+        ...
+
+    def gear_change(self):
+        ...
+
+class Airplane(Vehicle):
+     def __init__(self):
+        super().__init__()
+        self.capacity = ...
+        self.licence_plate = ...
+        self.country = ...
+
+class car(Vehicle):
+    def __init__(self):
+        super().__init__()
+        self.capacity = ...
+        self.licence_plate = ...
+
+
+jimbo = Airplane()
+pride = car()
+
+pride.licence_plate = 'xpg421'
+pride.color = 'green'
+
+

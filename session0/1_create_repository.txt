@@ -1,0 +1,27 @@
+#Github, sign up, create new repository
+#Git-scm.com, download
+#PC, create folder(Leyla), right click, show more, git bash here
+
+
+git config --global user.name "Farokhlagha"
+git config --global user.email "f@gmai.com"
+
+
+#Github, quick setup, copy address
+#Git bash, paste
+
+
+git clone http://github.com/Farokhlagha/Py_Class.git
+
+
+#VS code, create folder and file in Py_Class(paste to this folder)
+#PC, folder Py_Class, right click, git bash here
+
+
+git add --all
+git commit -m "write first commite"
+git push
+
+
+#Github, referesh repository, connect files to github
+# after any changes in vs code or file have to do last 3 commit

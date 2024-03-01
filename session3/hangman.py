@@ -28,7 +28,7 @@ while user_mistakes <6 :
                 user_mistakes +=1
                 print("❌") 
     else:
-         print("mese adam vared kon!")
+         print("enter again!")
 
 if user_mistakes == 6:
      print("game over!") 

@@ -1,0 +1,8 @@
+https://github.com/mdoege/PySynth
+
+
+# in terminal
+cd ..
+git clone https://github.com/mdoege/PySynth.git
+cd PySynth
+python setup.py install

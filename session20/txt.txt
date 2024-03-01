@@ -1,0 +1,14 @@
+INSERT INTO students(id, name, family, ave, year)
+VALUES(100, "zaha", "ani", 15.2, 99)
+
+SELECT * FROM courses
+WHERE unit > 3 OR name = "phytn"
+
+UPDATE courses
+SET unit = 2
+WHERE name = "sport"
+
+DELETE FROM courses
+WHERE name = "c++"
+
+
