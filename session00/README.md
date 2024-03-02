@@ -2,7 +2,7 @@
 
 **Description of class:**
 
-2022-2023 
+2023-2024 
 ---
 
 ## Python
@@ -15,8 +15,8 @@ Find more info about [markdown-it](https://markdown-it.github.io/)
 
 |  | Process time |
 | -| -------------|             
-| Normal learn | 6 months |
-| fast learn | 1 month |
+| Normal learn | 12 months |
+| fast learn | 6 month |
 
 ### usage
 First install requirements packages:
