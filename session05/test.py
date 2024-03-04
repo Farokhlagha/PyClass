@@ -1,13 +1,13 @@
 number = [1,2,3,4,5]
 
-jadval_zarb = [
+Multiplication_table = [
     [0, 1, 2, 3],
     [1, 1, 2, 3],
     [2, 2, 4, 6]
                 ]
-print(jadval_zarb[2][2])
+print(Multiplication_table[2][2])
 
-for i in jadval_zarb:
+for i in Multiplication_table:
     for j in i:
         print(j)
 
