@@ -25,7 +25,7 @@ class person:
     def eat(self):
      ...
 
-
+# object
 my_friend = person('amir', 30, 190, 'london', 'green')
 my_sister = person('sara', 10, 112, 'newyork', 'blue')
 

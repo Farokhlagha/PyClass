@@ -3,7 +3,7 @@ class Time:
         self.hour = hh
         self.minute = mm
         self.second = ss
-        t3.fix()
+        self.fix()
 
 
     def show(self):
