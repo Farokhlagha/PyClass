@@ -1,3 +1,4 @@
+# pip install arcade
 import random
 import arcade
 from spaceship import Spaceship
