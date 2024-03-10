@@ -1,10 +1,8 @@
 # pip install arcade
 import random
-from typing import Optional
 import arcade
-from arcade import Texture
 from spaceship import Spaceship
-from enemy import Enemy                           
+from enemy import Enemy                        
 
 
 # in site python arcde, API,Built-in resources, find pic for background
@@ -32,10 +30,14 @@ class Game(arcade.Window):
         
 
     def on_key_press(self, symbol: int, modifiers: int):  
-        if symbol == arcade.key.LEFT.A or symbol == arcade.key.LEFT: 
+        if symbol == arcade.key.A or symbol == arcade.key.LEFT: 
             self.me.change_x =-1
-        elif symbol == arcade.key.RIGHT.D or Enemy == arcade.key.RIGHT: # right side
+        elif symbol == arcade.key.D or symbol == arcade.key.RIGHT: # right side
             self.me.change_x =1
+
+        elif symbol == arcade.key.DOWN:
+            self.me.center_x = 0
+             
         elif symbol == arcade.key.SPACE:
             self.me.fire()
 
@@ -56,6 +58,7 @@ class Game(arcade.Window):
                 self.enemy_list.remove(enemy)
 
         self.me.move()
+
         for enemy in self.enemy_list:
             enemy.move()
 
@@ -66,7 +69,7 @@ class Game(arcade.Window):
             if enemy.center_y < 0:
                 self.enemy_list.remove(enemy)
         
-        if random.randint(1, 30) == 6:
+        if random.randint(1, 100) == 6:
             self.new_enemy = Enemy(self.width, self.height)
             self.enemy_list.append(self.new_enemy)
 
