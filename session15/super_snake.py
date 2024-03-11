@@ -3,7 +3,7 @@ import arcade
 
 class Apple(arcade.Sprite):
     def __init__(self, game):
-        super().__init__('session15/apple.png')
+        super().__init__('apple.png')
         self.width = 28
         self.height = 28
         self.center_x = random.randint(10,game.width-10)
@@ -15,21 +15,23 @@ class Apple(arcade.Sprite):
 class Snake(arcade.Sprite):
     def __init__(self, game):
         super().__init__()
-        self.width = 28
-        self.height = 28
+        self.width = 32
+        self.height = 32
         self.center_x = game.width // 2
         self.center_y = game.height // 2
         self.color = arcade.color.GREEN
         self.change_x = 0
         self.change_y = 0
-        self.speed = 2
+        self.speed = 4
         self.score = 0
         self.body = []
 
     def draw(self):
-        arcade.draw_rectangle_filled(self.center_x, self.center_y, self.width, self.height, self.color)
+        arcade.draw_rectangle_filled(self.center_x, self.center_y, self.width, 
+                                     self.height, self.color)
         for part in self.body:
-            arcade.draw_rectangle_filled(part['x'], part['y'], self.width, self.height, self.color)
+            arcade.draw_rectangle_filled(part['x'], part['y'], self.width, 
+                                         self.height, self.color)
 
     def move(self):
         self.body.append({'x':self.center_x, 'y':self.center_y})
