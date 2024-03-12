@@ -20,8 +20,8 @@ class Database:
        except:
            return False
 
-def remove_task(self):
-    query = "DELETE FROM ..."
+    def remove_task(self):
+        query = "DELETE FROM ..."
         
-def task_done(self):
-    query = "UPDATE ... SET is-done= 1"
+    def task_done(self):
+        query = "UPDATE ... SET is-done= 1"
