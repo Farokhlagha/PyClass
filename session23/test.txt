@@ -1,0 +1,4 @@
+1- Write a code
+2- Fix the error
+3- Get the right answer
+4- Standardize your code
