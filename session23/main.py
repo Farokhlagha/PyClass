@@ -1,3 +1,7 @@
+# pyside6-designer
+# pyside6-uic mainwindow.ui -o ui_mainwindow.py # generate py class from ui
+# pip3 install py-sudoku  # generates and solves m x n Sudoku puzzles
+
 import sys
 import random
 from functools import partial
