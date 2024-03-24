@@ -49,4 +49,13 @@ Threading:
 
 Threading is used to run multiple programs at the same time.
 - 24- Thread Example
-- 25- 
+- 25- Clock App
+
+# 4- PyImageProcessing
+- 26- Introduction
+- 27- Digital Image Processing
+- 28- Face Detector
+- 29- Basic Math Operations
+- 30- Face Alignment
+- 31- Edge detection, Noise, Histogram
+- 32- 

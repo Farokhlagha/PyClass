@@ -41,26 +41,26 @@ class StopWatchThread(QThread):
         self.second = 0
 
 
-    def reset_stopwatch():
-        thread_stopwatch.reset()
+def reset_stopwatch():
+    thread_stopwatch.reset()
 
    
-    def stop_stopwatch():
-        thread_stopwatch.terminate()
+def stop_stopwatch():
+    thread_stopwatch.terminate()
 
-    def start_stopwatch():
-        thread_stopwatch.start()
+def start_stopwatch():
+    thread_stopwatch.start()
 
-    def start_timer():
-        thread_timer.start()
+def start_timer():
+    thread_timer.start()
 
-    def show_time_timer(time):
-        window.tb_hour_timer.setText(str(time.hour))
-        window.tb_minute_timer.setText(str(time.minute))
-        window.tb_second_timer.setText(str(time.second))
+def show_time_timer(time):
+    window.tb_hour_timer.setText(str(time.hour))
+    window.tb_minute_timer.setText(str(time.minute))
+    window.tb_second_timer.setText(str(time.second))
 
-    def show_time_stopwatch(time):
-        window.lbl_stopwatch.setText(f"{time.hour}:{time.minute}:{time.second}")
+def show_time_stopwatch(time):
+    window.lbl_stopwatch.setText(f"{time.hour}:{time.minute}:{time.second}")
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
