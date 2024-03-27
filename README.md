@@ -58,4 +58,10 @@ Threading is used to run multiple programs at the same time.
 - 29- Basic Math Operations
 - 30- Face Alignment
 - 31- Edge detection, Noise, Histogram
-- 32- 
+- 32- Convolution 2D
+- 33- Object Detection
+- 34-
+- 35-
+- 36-
+
+# 5- PyDataScience
