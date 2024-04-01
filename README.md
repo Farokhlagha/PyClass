@@ -60,8 +60,8 @@ Threading is used to run multiple programs at the same time.
 - 31- Edge detection, Noise, Histogram
 - 32- Convolution 2D
 - 33- Object Detection
-- 34-
-- 35-
-- 36-
+- 34- Color image processing
+- 35-  PIL, transparent
+- 36- HSV color 
 
 # 5- PyDataScience
