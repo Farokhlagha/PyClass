@@ -67,4 +67,9 @@ Threading is used to run multiple programs at the same time.
 # 5- PyDataScience
 - 37- Machine Learning, lobe app
 - 38- Data Science liberaries
-- 39- 
+- 39- Data Science Online Retail
+- 40- Data Science Billionaires
+
+# PyMachinLearning
+- 41- Algorithm k Nearest Neighbors (KNN)
+- 42- KNN
