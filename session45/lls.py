@@ -17,6 +17,15 @@ class LinearLeastSquare:
 
         return Y_pred
     
-    def evaluate(self, X_test, Y_test):
-        pass
+    def evaluate(self, X_test, Y_test, metric):
+        Y_pred = self.predict(X_test)
+    
+        if metric == 'mae':
+            loss= np.sum(np.abs(Y_test - Y_pred)) / len(Y_test)
+        if metric == 'mse':
+            loss = np.sum((Y_test - Y_pred)**2) / len(Y_test)
+
+
+        return loss
+        
 

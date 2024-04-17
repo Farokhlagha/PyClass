@@ -75,3 +75,5 @@ Threading is used to run multiple programs at the same time.
 - 42- KNN, ANSUR II, sklearn library
 - 43- KNN, Finging nemo
 - 44- Linear Least Squares (LLS), abalone
+- 45- LLS, abalone, house price regression
+- 46-
