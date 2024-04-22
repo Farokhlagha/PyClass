@@ -76,4 +76,5 @@ Threading is used to run multiple programs at the same time.
 - 43- KNN, Finging nemo
 - 44- Linear Least Squares (LLS), abalone
 - 45- LLS, abalone, house price regression
-- 46-
+- 46- perceptron, Height_weight_regression
+- 47- Perceptron (Perception Neuron)
