@@ -80,3 +80,4 @@ Threading is used to run multiple programs at the same time.
 - 47- Perceptron (Perception Neuron)
 - 48- Multi Layer Perceptron (MLP)-
 - 49- MLP using TensorFlow in titanic
+- 50- Advanced Regression Techniques
