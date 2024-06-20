@@ -82,4 +82,5 @@ Threading is used to run multiple programs at the same time.
 - 49- MLP using TensorFlow in titanic
 - 50- Advanced Regression Techniques
 
-# PyDeepLea
+# PyDeepLearning
+- 51
